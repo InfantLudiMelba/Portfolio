@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="port.css">
+</head>
+    <style>
+         .circular-image {
+      width: 500px; /* Set a fixed width */
+      height: 500px; /* Set the same height */
+      object-fit: cover; /* Crop the image to fit within the square */
+    }
+    </style>
+<body>
+<!-- Bootstrap JavaScript (includes Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script>
+    (() => {
+      'use strict';
+      const forms = document.querySelectorAll('.needs-validation');
+      Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+          if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    })();
+  </script>  
+<header>
+    <div class="container">
+        <nav class="navbar navbar-light fixed-top navbar-lg-expand" >
+            <div class="container">  
+                <h1>Infant Ludi Melba</h1>
+               <!-- <a href="#" class="navbar-brand"><h1>Infant Ludi Melba</h1></a>  -->
+               <ul class="navbar-nav d-flex  flex-row">
+                   <li class="nav-item p-3"><a href="#"class="nav-link">Home</a></li>
+                   <li class="nav-item p-3"><a href="#about" class="nav-link">About</a></li>
+                   <li class="nav-item p-3"><a href="#skills" class="nav-link ">Skills</a></li>
+                   <li class="nav-item p-3"><a href="#project" class="nav-link">Project</a></li>
+                   <li class="nav-item p-3"><a class="nav-link" href="#contact">Contact</a></li>
+               </ul>
+           </div>
+           </nav>
+    </div>
+    
+</header>
+<div class="m-3  pt-5 mt-5">
+    <section id="home" >
+        <div class="row  w-100  pt-5 mt-5">
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12 " >
+                <!-- <div class="rounded-circle p-3" style="background-color:rgb(162,162,208);backdrop-filter: blur(2px);"> -->
+                    <div>
+                    <img src="portfoliophoto.jpg" class="img-fluid rounded-circle circular-image h-100 w-50" alt="Melba">
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12 ps-5 d-flex justify-content-center align-items-center" >
+             <h1 class="text-dark fw-bold">I'm Infant Ludi Melba,I am a Fullstack web Developer.</h1>
+            </div>
+            </div>
+    </section>
+    <section id="about" >
+        <div class="row pt-5 d-flex justify-content-center align-items-center">
+            <div class="bg-secondary mt-5">
+                <h1 > About</h1>
+            </div>
+        </div>
+         <div class="row pt-5 d-flex justify-content-center align-items-center">
+           <div class="">
+            <h2>Hi i'm Melba.</h2>
+            <div id="about_def">
+                <p class="h-3" >I finished my degree in computer science engineering with an 8.75.</p>
+                <p>I have successfully completed my full-stack Python web development course at Aruvi Tech.</p>
+               <p> I am reasonably knowledgeable with Java programming.</p><p> I am knowledgeable with the dsa concept.</p>
+                </p>
+            </div>
+            
+           </div>
+           </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="row  pt-5 d-flex justify-content-center align-items-center">
+            <div class="bg-secondary mt-5">
+                <h1 > Skills</h1>
+            </div>
+        </div>
+        
+     <div class="row p-3">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-lg-6 col-md-6 p-3">
+                <label id="plabel">Java</label>
+                <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" aria-valuemin="0" style= " width: 80%;"aria-valuemax="100">80%</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6 col-md-6 p-3">
+                <label id="plabel">Python</label>
+                <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" aria-valuemin="0" style= " width: 50%;"aria-valuemax="100">50%</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-lg-6 col-md-6 p-3">
+                <label id="plabel">Html</label>
+                <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" aria-valuemin="0" style= " width: 75%;"aria-valuemax="100">75%</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6 col-md-6 p-3">
+                <label id="plabel">CSS</label>
+                <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" aria-valuemin="0" style= " width: 60%;"aria-valuemax="100">60%</div>
+                </div>
+            </div>
+        </div>
+       <div class="row">
+        <div class="col-12 col-sm-12 col-lg-6 col-md-6 p-3">
+            <label id="plabel">JavaScript</label>
+            <div class="progress">
+                <div class="progress-bar bg-secondary" role="progressbar" aria-valuemin="0" style= " width: 40%;"aria-valuemax="100">40%</div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6 col-md-6 p-3">
+            <label id="plabel">Bootstrap</label>
+            <div class="progress">
+                <div class="progress-bar bg-secondary" role="progressbar" aria-valuemin="0" style= " width: 70%;"aria-valuemax="100">70%</div>
+            </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-12 col-sm-12 col-lg-6 col-md-6 p-3">
+            <label id="plabel">Sql</label>
+            <div class="progress">
+                <div class="progress-bar bg-secondary" role="progressbar" aria-valuemin="0" style= " width: 65%;"aria-valuemax="100">65%</div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6 col-md-6 p-3">
+            <label id="plabel">Django</label>
+            <div class="progress">
+                <div class="progress-bar  bg-secondary" role="progressbar" aria-valuemin="0" style= " width: 20%;"aria-valuemax="100">20%</div>
+            </div>
+        </div>
+       </div>
+        
+     </div>
+    </section>
+    <section id="project" >
+        <div class="row pt-5 d-flex justify-content-center align-items-center">
+            <div class="bg-secondary mt-5">
+                <h1 >Project</h1>
+            </div>
+        </div>
+         <div class="row pt-5 d-flex justify-content-center align-items-center">
+            <div class="row p-4 ">
+                <div class="col-12 col-sm-12 col-md-6 col-sm-6 d-flex justify-content-center align-item-center mb-5">
+                    <div class="card">
+                        <div class="card-header">Loginpage Screenshot</div>
+                        <div class="card-body">
+                            <img class="screenshot" src="loginpage_Screenshot.png"  alt="Website Screenshot">
+                        </div>
+                    </div>
+                    </div>
+                <div class="col-12 col-sm-12 col-md-6 col-sm-6 d-flex justify-content-center align-item-center mb-5">
+                    <div class="card">
+                        <div class="card-header">BakeryWebsite Screenshot</div>
+                        <div class="card-body">
+                            <img class="screenshot" src="cake_screenshot.png"  alt="Website Screenshot">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="h-3" id="about_def">I finished a front-end project for a bakery website using HTML, CSS, Bootstrap, and JavaScript so that users could view and order products that would be useful to them.</p>
+                </div>
+           
+        </div>
+    </section>
+    <section id="contact" >
+        <div class="row pt-5 d-flex justify-content-center align-items-center">
+            <div class="bg-secondary mt-5">
+                <h1 >Contact</h1>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="  p-5 ">
+                <h2 style="text-align: center;margin-bottom: 10px;">To Contact me</h2>
+                <div class="d-flex justify-content-center align-item-center w-sm-100 w-lg-75">
+                    <form action="" class="rounded w-lg-100 ">
+                        <div class="p-3">
+                            <div id="form_arguments">
+                                <label for="name" class="form-label">Name:</label>
+                                <input type="text" id="name" class="form-control"  required>
+                            </div>
+                            <div id="form_arguments">
+                                <label for="mail" class="form-label">Email:</label>
+                                <input type="email" class="form-control" required>
+                            </div>
+                            <div id="form_arguments">
+                                <label for="phone" class="form-label">Phone:</label>
+                                <input type="phone" class="form-control">
+                            </div>
+                            <div id="form_arguments">
+                                <label for="comment" class="form-label">Comment:</label>
+                                <textarea name="comment" id="comment" class="form-control" row="3" required></textarea>
+                            </div>
+                            <div class="d-flex justify-content-end align-items-end">
+                                <button type="submit" class="btn mt-3 btn-dark ">Submit</button>
+                            </div>
+                        </div>
+                      
+                      
+                    </form>
+                </div>
+                
+              </div>
+        </div>
+    </section>
+</div>
+   
+<footer class="fluid">
+    <div class="contact_icon d-flex justify-content-center align-items-center">
+    <a href="mailto:iinfantludimelba@gmail.com"> <i class="bi bi-envelope px-1"> </i></a>
+    <!-- <a href="https://wa.me/#12333"> <i class="bi bi-whatsapp px-1"> </i></a> -->
+    <a href="https://www.instagram.com/infant_ludi_melba"> <i class="bi bi-instagram px-1"> </i></a>
+    <!-- <a href="#"> <i class="bi bi-facebook px-1"> </i></a> -->
+    <a href="https://github.com/InfantLudiMelba"> <i class="bi bi-github px-1"></i></a>
+</div>
+    <small  class="footercontent">
+        <p>© 2024-<a href="/">Melba Portfolio </a>|
+            &nbsp;All rights reserved | Website By: <a href="https://www.instagram.com/infant_ludi_melba">AbleM</a></p>
+    </small>
+
+</footer>
+</body>
+</html>
